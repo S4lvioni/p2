@@ -1,5 +1,6 @@
 package com.example.prova2;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void Registrar(View view){
+        Intent intent = new Intent(MainActivity.this, Registrar.class);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
